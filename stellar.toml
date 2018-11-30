@@ -1,0 +1,21 @@
+# Sample stellar.toml
+
+#   The endpoint which clients should query to resolve stellar addresses
+#   for users on your domain.
+FEDERATION_SERVER="https://stellarid.io/federation/"
+
+# The endpoint used for the compliance protocol
+# AUTH_SERVER=""
+
+# The signing key is used for the compliance protocol
+SIGNING_KEY="SDBXSV2OUM4D4OUBVM5J2T5L6KUJIEZK6NG6JLRPBMUJYVT22RGSD74A"
+
+# asset with meta info
+[[CURRENCIES]]
+code="MIT"
+issuer="GCXYQCKED4WAPB4HF4NU4KQYMHSEYESSPRW7TGGDXDH42UC3M6TASJYA"
+display_decimals=7
+name="minerta"
+desc="1 MIT token represent 1 mit in the world"
+conditions=""
+image="https://minerta.io/images/minerta_img_logo.png"
